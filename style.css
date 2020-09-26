@@ -85,5 +85,10 @@ img {
   padding:1em;
 }
 
+.reiniciar {
+  color: #FFFFFF;
+  visibility:hidden;
+}
+
 
 
