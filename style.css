@@ -64,15 +64,15 @@ img {
 }
 
 .rotate {
-  -moz-transform: rotate(18000deg); 
-    -ms-transform: rotate(18000deg);
- -webkit-transform: rotate(18000deg); 
- -o-transform: rotate(18000deg); 
- transform: rotate(18000deg);
- -webkit-transition: top 35s ease-out;
- -moz-transition: top 35s ease-out;
- -o-transition: top 35s ease-out;
- transition: all 35s ease-out;
+  -moz-transform: rotate(54000deg); 
+    -ms-transform: rotate(54000deg);
+ -webkit-transform: rotate(54000deg); 
+ -o-transform: rotate(54000deg); 
+ transform: rotate(54000deg);
+ -webkit-transition: top 105s ease-out;
+ -moz-transition: top 105s ease-out;
+ -o-transition: top 105s ease-out;
+ transition: all 105s ease-out;
 }
 
 .davi {
