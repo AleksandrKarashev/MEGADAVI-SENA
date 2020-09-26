@@ -1,0 +1,89 @@
+  * {
+    padding:0;
+    border:0;
+  }
+
+  table {
+    position:relative;
+    margin:1em auto;
+    background:#FF0000;
+    max-width:40em;
+  }
+
+  #placa {
+    font-size:2em;
+    background:#2E8B57;
+    color:#FFFFE0;
+  }
+
+  #regra {
+    background:#2E8B57;
+    color:#FFFFE0;
+  }
+
+  td {
+    height:1em;
+    width:2em;
+    text-align:center;
+    font-size:1.6em;
+    color:#FF0000;
+    background: white;
+    border:5px solid white;
+    cursor:pointer;
+  }
+
+  .tecla-container {
+   background-color:#FFFFE0;;
+ }
+
+ #tecla{
+  font-size:1.2em;
+}
+
+.ready {
+  cursor:pointer;
+  background-color:#FFFF00;
+}
+
+.cruz {
+ height:0.8em;
+ width:0.2em;
+ background-color:blue;
+}
+
+img {
+  height:14em;
+  width:9em;
+  -moz-transform: rotate(7deg); 
+  -ms-transform: rotate(7deg); 
+  -webkit-transform: rotate(7deg);     
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  padding:1em;
+  z-index:9999;
+}
+
+.rotate {
+  -moz-transform: rotate(18000deg); 
+    -ms-transform: rotate(18000deg);
+ -webkit-transform: rotate(18000deg); 
+ -o-transform: rotate(18000deg); 
+ transform: rotate(18000deg);
+ -webkit-transition: top 35s ease-out;
+ -moz-transition: top 35s ease-out;
+ -o-transition: top 35s ease-out;
+ transition: all 35s ease-out;
+}
+
+.davi {
+  background-color:#FFFFFF;
+  color:#FF0000;
+}
+
+#fala {
+  font-size:1.4em;
+  padding:1em;
+}
+
+
+
