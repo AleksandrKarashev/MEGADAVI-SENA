@@ -93,3 +93,26 @@ let att = (attModern > 6) ? attempts.toString().slice(0, -6) + '.' + attempts.to
 return attempts;
 }
 
+function putInCenter() {
+
+   let table = document.querySelector('table');
+
+   let tableSize = table.getBoundingClientRect();
+
+   let scrollHeight = Math.max(
+      document.body.scrollHeight, document.documentElement.scrollHeight,
+      document.body.offsetHeight, document.documentElement.offsetHeight,
+      document.body.clientHeight, document.documentElement.clientHeight
+   );
+
+   table.style.top = scrollHeight / 2 - tableSize.height / 2 + 'px';
+
+   let scrollWidth = document.documentElement.clientWidth;
+
+   table.style.left = scrollWidth / 2 - tableSize.width / 2 + 'px';
+
+}
+
+putInCenter()
+
+window.onresize = putInCenter;
