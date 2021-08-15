@@ -4,10 +4,10 @@
   }
 
   table {
-    position:relative;
-    margin:1em auto;
+    position:absolute;
+    margin:auto;
     background:#FF0000;
-    max-width:40em;
+    width:40em;
   }
 
   #placa {
